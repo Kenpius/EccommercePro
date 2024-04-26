@@ -24,10 +24,10 @@
                 <x-input id="phone" class="block mt-1 w-full" type="number" name="phone" :value="old('phone')" required autocomplete="username" />
             </div>
 
-              <adress class="mt-4">
-                <x-label for="adress" value="{{ __('adress') }}" />
-                <x-input id="adress" class="block mt-1 w-full" type="text" name="adress" :value="old('adress')" required autocomplete="username" />
-            </adress
+              <address class="mt-4">
+                <x-label for="address" value="{{ __('adress') }}" />
+                <x-input id="address" class="block mt-1 w-full" type="text" name="address" :value="old('address')" required autocomplete="username" />
+              </address>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />
